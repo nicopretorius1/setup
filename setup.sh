@@ -46,3 +46,9 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
+#Update git credentials
+git config --global user.name "Nico Pretorius"
+git config --global user.email nico.pretorius@gmx.com
+
+#Add git aliases
+alias gom='git push origin master'
