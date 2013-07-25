@@ -19,9 +19,14 @@ sudo add-apt-repository ppa:chris-lea/node.js
 sudo apt-get update
 sudo apt-get install nodejs
 
+cd $HOME
+
 # Install jshint to allow checking of JS code within emacs
 # http://jshint.com/
 npm install -g jshint
+
+# Install formidable to abstract the parsing of incoming file data
+npm install formidable
 
 # Install rlwrap to provide libreadline features with node
 # See: http://nodejs.org/api/repl.html#repl_repl
