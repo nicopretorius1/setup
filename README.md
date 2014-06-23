@@ -6,7 +6,9 @@ follows:
 
 ```sh
 cd $HOME
-sudo apt-get install -y git-core
+sudo yum update
+sudo yum install gcc-c++ make
+sudo yum install openssl-devel
 git clone https://github.com/nicopretorius1/setup.git
 ./setup/setup.sh   
 ```
