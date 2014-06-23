@@ -9,6 +9,7 @@ cd $HOME
 sudo yum update
 sudo yum install gcc-c++ make
 sudo yum install openssl-devel
+sudo yum install git
 git clone https://github.com/nicopretorius1/setup.git
 ./setup/setup.sh   
 ```
